@@ -1,0 +1,2 @@
+By default, Spring beans are singleton scoped, meaning there's a single instance shared across the application.
+If your FragranceRepository or any other bean has state that can be affected by concurrent requests, you might need to handle synchronization or consider using a different scope for the bean.
